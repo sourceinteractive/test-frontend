@@ -1,0 +1,100 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login_container {
+  width: 71rem;
+  height: 51.7rem;
+  background-color: white;
+  border: 0.1rem solid var(--lightGrey);
+  padding: 2rem 5rem;
+}
+
+.login_title {
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+/* LOGIN FORM */
+
+.login_form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login_form > div {
+  width: 100%;
+  position: relative;
+}
+
+.login_submit_btn {
+  background-color: var(--turquoise);
+  width: 15.1rem;
+  height: 6.6rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+  color: var(--white);
+  box-shadow: 0rem 0.2rem 1.4rem rgba(0, 0, 0, 0.12);
+}
+
+.login_input_text {
+  width: 100%;
+  margin-bottom: 4rem;
+  outline: none;
+  border: none;
+  padding: 1rem 0rem;
+  border-bottom: 0.2rem solid var(--lightGrey);
+  font-size: 1.7rem;
+  color: var(--grey);
+}
+
+.login_input_text:focus {
+  border-bottom: 0.2rem solid var(--blue);
+}
+
+/* Floating Label */
+
+.login_floating_label_disabled {
+  display: none;
+}
+
+.login_floating_label {
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: -1.5rem;
+  color: var(--blue);
+  font-size: 1.6rem;
+}
+
+/* Error message */
+
+.login_error_message {
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  color: var(--red);
+  text-align: center;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  .login_container {
+    width: 90%;
+  }
+}

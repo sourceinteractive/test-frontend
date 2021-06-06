@@ -1,0 +1,11 @@
+nav {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid black;
+}
+
+nav a,
+nav button {
+  padding: 1rem;
+}

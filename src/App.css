@@ -1,0 +1,40 @@
+/* Variables */
+
+:root {
+  /* COLORS */
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #4185f4;
+  --red: #ff0202;
+  --grey: #495058;
+  --turquoise: #2cbbad;
+  --lightGrey: #dddddd;
+}
+
+/* GLOBAL STYLING */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  font-family: "Lato", "Helvetica Neue", sans-serif;
+}
+
+/* LOADING STYLING */
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
